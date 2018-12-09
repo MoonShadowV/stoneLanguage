@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+//主要思想是利用正则表达式来把token从字节流当中拆分出来，然后依次生成不同的token对象
 public class Lexer {
     //regex
     public static String matchComment = "//.*";
