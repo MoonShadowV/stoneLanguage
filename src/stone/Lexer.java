@@ -18,6 +18,7 @@ public class Lexer {
             "\\s*((%s)|(%s)|(%s)|%s)?",matchComment,matchInt,matchString,matchIdentifier
     );
 
+
     private Pattern pattern = Pattern.compile(regexPat);
 
     //缓存token

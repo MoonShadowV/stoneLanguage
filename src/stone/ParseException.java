@@ -7,7 +7,7 @@ public class ParseException extends Exception {
         this("",t);
     }
     public ParseException(String msg,Token t){
-        super("syntax error around "+ location(t) + "." + msg);
+        super("syntax error around "+ location(t) + ". " + msg);
     }
 
     private static String location(Token t){
